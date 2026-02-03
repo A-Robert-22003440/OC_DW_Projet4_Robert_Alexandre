@@ -3,6 +3,17 @@
 <head>
 	<title>Nina Carducci | Photographe à Paris – Mariages, portraits, entreprise</title>
 	<meta name="description" content="Photographe à Paris, Nina Carducci capture vos moments forts : mariages, portraits, concerts et événements d’entreprise. Portfolio, services et contact." />
+	<meta property="og:locale" content="fr_FR" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Nina Carducci | Photographe à Paris – Mariages, portraits, entreprise" />
+	<meta property="og:description" content="Photographe à Paris, Nina Carducci capture vos moments forts : mariages, portraits, concerts et événements d’entreprise. Portfolio, services et contact." />
+	<meta property="og:url" content="./index.html" />
+	<meta property="og:image" content="./assets/images/nina.png" />
+	<meta property="og:image:alt" content="Portrait de Nina Carducci" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Nina Carducci | Photographe à Paris – Mariages, portraits, entreprise" />
+	<meta name="twitter:description" content="Photographe à Paris, Nina Carducci capture vos moments forts : mariages, portraits, concerts et événements d’entreprise. Portfolio, services et contact." />
+	<meta name="twitter:image" content="./assets/images/nina.png" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="./assets/style.css">
@@ -10,6 +21,43 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 	<meta charset="UTF-8">
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "LocalBusiness",
+			"name": "Nina Carducci",
+			"description": "Photographe à Paris, Nina Carducci capture vos moments forts : mariages, portraits, concerts et événements d’entreprise.",
+			"image": "./assets/images/nina.png",
+			"businessCategory": "Photographe",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "68 avenue Alsace-Lorraine",
+				"postalCode": "33200",
+				"addressLocality": "Paris",
+				"addressRegion": "Île-de-France",
+				"addressCountry": "FR"
+			},
+			"telephone": "+33 5 56 67 78 89",
+			"openingHoursSpecification": [
+				{
+					"@type": "OpeningHoursSpecification",
+					"dayOfWeek": [
+						"Monday",
+						"Tuesday",
+						"Wednesday",
+						"Thursday",
+						"Friday"
+					],
+					"opens": "10:00",
+					"closes": "19:00"
+				}
+			],
+			"areaServed": "Île-de-France",
+			"sameAs": [
+				"https://www.instagram.com/ninacarducci.photo/?hl=fr"
+			]
+		}
+	</script>
 	<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="./assets/maugallery.js"></script>
@@ -180,6 +228,9 @@
 		<div class="form-container">
 			<h3>Une question ? Une demande de devis ?</h3>
 			<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
+			<p>Adresse : 68 avenue Alsace-Lorraine, 33200 Bordeaux.</p>
+			<p>Téléphone : <a href="tel:+33556677889">05 56 67 78 89</a></p>
+			<p>Disponible du lundi au vendredi, de 10 h à 19 h.</p>
 			<form action="" method="post">
 				<label>Nom</label>
 				<input type="text" name="nom" id="nom">
